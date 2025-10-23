@@ -86,3 +86,14 @@ hr {
 .character-name {
     text-decoration: underline;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .portrait img {
+        max-width: 100%;
+    }
+}
