@@ -3,8 +3,8 @@
 
 body {
     background-color: black;
-    color: white;
-    max-width: 1200px;
+    color: #ffffff;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
