@@ -1,0 +1,88 @@
+/* Import IM FELL fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=IM+Fell+Double+Pica+SC&family=IM+Fell+English&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20pt;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 16pt;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'IM Fell English', serif;
+    font-size: 13pt;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+li {
+    font-family: 'IM Fell English', serif;
+    font-size: 13pt;
+    line-height: 1.6;
+}
+
+h2.subtitle {
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+h3.detail-header {
+    margin-top: 15px;
+}
+
+.content-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.portrait {
+    flex-shrink: 0;
+}
+
+.portrait img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-section {
+    flex: 1;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 40px 0;
+}
+
+.character-name {
+    text-decoration: underline;
+}
